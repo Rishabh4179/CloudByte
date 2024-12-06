@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useCallback, useState } from "react";
+
 import { useDropzone } from "react-dropzone";
 import { Button } from "@/components/ui/button";
 import { cn, convertFileToUrl, getFileType } from "@/lib/utils";
@@ -21,6 +22,7 @@ const FileUploader = ({ ownerId, accountId, className }: Props) => {
   const path = usePathname();
   const { toast } = useToast();
   const [files, setFiles] = useState<File[]>([]);
+
   const onDrop = useCallback(
     async (acceptedFiles: File[]) => {
       setFiles(acceptedFiles);
@@ -41,6 +43,7 @@ const FileUploader = ({ ownerId, accountId, className }: Props) => {
             className: "error-toast",
           });
         }
+
         return uploadFile({ file, ownerId, accountId, path }).then(
           (uploadedFile) => {
             if (uploadedFile) {
@@ -51,10 +54,12 @@ const FileUploader = ({ ownerId, accountId, className }: Props) => {
           },
         );
       });
+
       await Promise.all(uploadPromises);
     },
-    [ownerId, accountId, path],
+    [ownerId, accountId, path, toast],
   );
+
   const { getRootProps, getInputProps } = useDropzone({ onDrop });
 
   const handleRemoveFile = (
@@ -85,13 +90,17 @@ const FileUploader = ({ ownerId, accountId, className }: Props) => {
             const { type, extension } = getFileType(file.name);
 
             return (
-              <li key={`file-${index}`} className="uploader-preview-item">
+              <li
+                key={`${file.name}-${index}`}
+                className="uploader-preview-item"
+              >
                 <div className="flex items-center gap-3">
                   <Thumbnail
                     type={type}
                     extension={extension}
                     url={convertFileToUrl(file)}
                   />
+
                   <div className="preview-item-name">
                     {file.name}
                     <Image
@@ -102,6 +111,7 @@ const FileUploader = ({ ownerId, accountId, className }: Props) => {
                     />
                   </div>
                 </div>
+
                 <Image
                   src="/assets/icons/remove.svg"
                   width={24}
@@ -117,4 +127,5 @@ const FileUploader = ({ ownerId, accountId, className }: Props) => {
     </div>
   );
 };
+
 export default FileUploader;
