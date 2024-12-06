@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5b839ff-fcd8-45de-9bc4-6470d9daa0e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/(root)/[type]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ActionDropdown.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ActionsModalContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Chart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/FileUploader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/FormattedDateTime.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MobileNavigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/OtpModel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Sort.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Thumbnail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/actions/file.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/actions/user.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/appwrite/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/appwrite/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/logo-full-brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AuthForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AuthForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/components/AuthForm.tsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="proportion" value="0.9" />
+    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oyEB05awN9uuUdejQrU6JmQYmQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.17.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.17.6&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sanje/cloudbyte/public/assets/icons&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;C:\\Users\\sanje\\cloudbyte\\node_modules\\eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\sanje\\cloudbyte\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\sanje\\cloudbyte\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sanje\cloudbyte\public\assets\icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sanje\cloudbyte\public\assets\images" />
+      <recent name="C:\Users\sanje\cloudbyte" />
+      <recent name="C:\Users\sanje\cloudbyte\app\(root)" />
+      <recent name="C:\Users\sanje\cloudbyte\app" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5b839ff-fcd8-45de-9bc4-6470d9daa0e5" name="Changes" comment="" />
+      <created>1731833278589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731833278589</updated>
+      <workItem from="1731833283183" duration="19618000" />
+      <workItem from="1731945458293" duration="5530000" />
+      <workItem from="1732022504036" duration="10649000" />
+      <workItem from="1732111177387" duration="1868000" />
+      <workItem from="1732122376210" duration="1017000" />
+      <workItem from="1732160971064" duration="7053000" />
+      <workItem from="1732292868555" duration="7949000" />
+      <workItem from="1732368162808" duration="11685000" />
+      <workItem from="1732463123817" duration="9968000" />
+      <workItem from="1732546920185" duration="10940000" />
+      <workItem from="1732626334759" duration="9931000" />
+      <workItem from="1732642305390" duration="1108000" />
+      <workItem from="1732725708333" duration="3797000" />
+      <workItem from="1732896268354" duration="3633000" />
+      <workItem from="1732980178935" duration="8368000" />
+      <workItem from="1733071131265" duration="6955000" />
+      <workItem from="1733145241499" duration="13045000" />
+      <workItem from="1733232780557" duration="13658000" />
+      <workItem from="1733318704926" duration="7812000" />
+      <workItem from="1733405259220" duration="9970000" />
+      <workItem from="1733457217995" duration="330000" />
+      <workItem from="1733457662443" duration="5273000" />
+      <workItem from="1733466671867" duration="472000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
